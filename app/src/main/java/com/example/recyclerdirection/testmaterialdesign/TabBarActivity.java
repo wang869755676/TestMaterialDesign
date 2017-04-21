@@ -12,6 +12,7 @@ import android.support.v7.widget.Toolbar;
 
 public class TabBarActivity extends AppCompatActivity {
 
+
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;

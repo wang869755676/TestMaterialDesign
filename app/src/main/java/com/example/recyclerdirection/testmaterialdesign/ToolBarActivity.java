@@ -19,6 +19,7 @@ public class ToolBarActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tool_bar);
+
         toolbarLayout= (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar_layout);
         recyclerView= (RecyclerView) findViewById(R.id.recyclerView);
         toolbarLayout.setTitle("imageView");
