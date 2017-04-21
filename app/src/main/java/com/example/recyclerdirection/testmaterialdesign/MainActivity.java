@@ -15,6 +15,9 @@ public class MainActivity extends Activity {
 
     public void bar(View v) {
         startActivity(new Intent(this,ToolBarActivity.class));
+    }
 
+    public void tabbar(View v) {
+        startActivity(new Intent(this,TabBarActivity.class));
     }
 }

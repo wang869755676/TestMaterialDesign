@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ToolBarActivity"></activity>
+        <activity android:name=".ToolBarActivity" />
+        <activity android:name=".TabBarActivity"></activity>
     </application>
 
 </manifest>
