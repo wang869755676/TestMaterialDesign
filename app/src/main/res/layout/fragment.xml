@@ -2,10 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <LinearLayout
+      <!--  <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -14,9 +15,18 @@
                 android:layout_height="700dp"
                 android:src="@mipmap/bg"
                 android:scaleType="fitXY"/>
-        </LinearLayout>
+        </LinearLayout>-->
+        <WebView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></WebView>
 
 
     </android.support.v4.widget.NestedScrollView>
+ <!--   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:src="@mipmap/bg"
+        android:scaleType="fitXY"/>-->
 
 </LinearLayout>
